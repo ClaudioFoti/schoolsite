@@ -12,8 +12,8 @@ return new class extends Migration
         Schema::create('info_pages', function (Blueprint $table) {
             $table->id();
             $table->foreignId('tenant_id');
-            $table->string('title');
-            $table->string('text');
+            $table->string('title', 100);
+            $table->longText('text');
             $table->integer('order')->default(1);
             $table->foreignIdFor(User::class, 'responsible_id');
 
