@@ -26,7 +26,7 @@ class IdentifyTenantMiddleware
         }
 
         // Detect if we are landlord situation
-        if($request->getHost() === 'schoolsite.test') {
+        if($request->getHost() === '127.0.0.1') {
             return $next($request);
         }
 
