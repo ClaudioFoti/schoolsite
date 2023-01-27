@@ -16,7 +16,7 @@
                 <a href="{{route('blogs.index')}}">Blog</a>
             </div>
             <div class="text-[#0066ff] text-[16px] ">
-                <a href="#">Info</a>
+                <a href="{{route('infopages.index')}}">Info</a>
             </div>
         </div>
     </div>

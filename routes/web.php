@@ -19,6 +19,7 @@ Route::middleware('is_tenant')->group(function () {
     })->middleware(['auth', 'verified'])->name('dashboard');
 
     Route::resource('blogs', \App\Http\Controllers\BlogController::class);
+    Route::resource('infopages', \App\Http\Controllers\InfoPageController::class);
 
     Route::middleware('auth')->group(function () {
         Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

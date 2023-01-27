@@ -16,6 +16,6 @@ class InfoPageSeeder extends Seeder
      */
     public function run()
     {
-        InfoPage::factory(10)->create();
+        InfoPage::factory(5)->create();
     }
 }
