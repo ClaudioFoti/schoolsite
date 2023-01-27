@@ -13,7 +13,7 @@
                 <a href="#">Classes</a>
             </div>
             <div class="text-[#0066ff] text-[16px] ">
-                <a href="#">Blog</a>
+                <a href="{{route('blogs.index')}}">Blog</a>
             </div>
             <div class="text-[#0066ff] text-[16px] ">
                 <a href="#">Info</a>

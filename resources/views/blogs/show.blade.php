@@ -1,5 +1,5 @@
-<x-app-layout>
-    <div class="mx-auto">
+<x-site-layout>
+    <div class="container mx-auto mt-10">
         <x-blog-component :blog="$blog"/>
     </div>
-</x-app-layout>
+</x-site-layout>
